@@ -23,7 +23,7 @@ export default {
         imgURL: 'https://t8.baidu.com/it/u=1904929927,2760345427&fm=193'
       }, {
         id: '0002',
-        imgURL: 'https://t7.baidu.com/it/u=2543309874,4285392330&fm=193'
+        imgURL: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591521167624&di=b186fde29f3ba14978dbf6c22f3a408c&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200603ac%2F213%2Fw640h373%2F20200603%2Fbd0c-iumkapw9234077.jpg'
       }]
     }
   }

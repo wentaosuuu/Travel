@@ -4,11 +4,11 @@
     <ul>
       <li
         class="item border-bottom"
-        v-for="item of RecommendList"
+        v-for="item of list"
         :key="item.id"
       >
         <div class="item-img-wrapper">
-          <img class="item-img" :src='item.imgURL' alt="">
+          <img class="item-img" :src='item.imgUrl' alt="">
         </div>
 
         <div class="item-info">
@@ -23,25 +23,8 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      RecommendList: [{
-        id: '0001',
-        imgURL: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '大连东北虎',
-        desc: '凶残凶残东北虎'
-      }, {
-        id: '0002',
-        imgURL: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '大连东北虎',
-        desc: '凶残凶残东北虎'
-      }, {
-        id: '0003',
-        imgURL: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '大连东北虎',
-        desc: '凶残凶残东北虎'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
@@ -54,7 +37,7 @@ export default {
     line-height .8rem
   .item-img-wrapper
     height 0
-    padding-bottom 33.9%
+    padding-bottom 37.09%
     overflow hidden
     .item-img
       width 100%
